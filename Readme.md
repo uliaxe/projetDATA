@@ -9,9 +9,9 @@
         - Exemple d'usage : Suivi des revenus cumulés, des volumes ou des proportions.
         - Avantage : Visuellement intuitif pour des séries temporelles ou des données continues.
 
-[En python](Area_chart.py)
+[Python](Area_chart.py)
 
-[En R](Area_chart.R)
+[R](Area_chart.R)
 
 ---
 
@@ -21,3 +21,7 @@
 
         - Exemple d'usage : Comparer les performances d’équipes, visualiser des hausses/baisses de ventes.
         - Avantages : Facile à interpréter, permet de mettre en évidence des tendances ou des valeurs spécifiques.
+
+[Python](Colored_bar_chart.py)
+
+[R](Colored_bar_chart.R)
