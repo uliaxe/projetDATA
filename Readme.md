@@ -2,7 +2,7 @@
 
 ## Les différentes méthodes de visualisation
 
-- Aire (Area chart)
+- **Aire (Area chart)**
 
     - Un graphique d'aire met en évidence les variations d'une quantité dans le temps en remplissant l'espace sous une courbe. Cela aide à visualiser des tendances cumulatives ou des changements globaux.
 
@@ -15,7 +15,7 @@
 
 ---
 
-- Diagramme en barres colorées (colored bar chart)
+- **Diagramme en barres colorées (colored bar chart)**
 
     - Un diagramme en barres colorées est utilisé pour comparer des catégories ou des valeurs discrètes. Les couleurs des barres peuvent indiquer des informations supplémentaires, comme des variations positives ou négatives.
 
@@ -28,7 +28,7 @@
 
 ---
 
-- Bougies Japonaises (Candlestick Chart)
+- **Bougies Japonaises (Candlestick Chart)**
 
     - Un graphique en bougies japonaises est utilisé pour représenter les mouvements des prix sur une période donnée. Chaque bougie montre quatre informations clés :
          
@@ -48,7 +48,7 @@
 
 ---
 
-- Heikin Ashi
+- **Heikin Ashi**
 
     - Le graphique Heikin Ashi est une variante des bougies japonaises. Il utilise des valeurs moyennes pour lisser les variations des prix et identifier plus clairement les tendances. Contrairement aux bougies traditionnelles, chaque bougie Heikin Ashi est calculée à partir de la bougie précédente et des prix actuels.
 
@@ -66,7 +66,7 @@
 
 ---
 
-- Hollow Candle (Bougies Creuses)
+- **Hollow Candle (Bougies Creuses)**
 
     - Les hollow candles (ou bougies creuses) sont similaires aux bougies japonaises, mais avec une distinction visuelle supplémentaire :
 
@@ -80,7 +80,7 @@
 
 ---
 
-- Kagi
+- **Kagi**
 
     - Le graphique Kagi est un type de graphique utilisé principalement dans l'analyse technique pour représenter les variations de prix sans tenir compte du temps.
 Il met en évidence les changements significatifs de tendance en fonction d’un seuil (appelé "reversal amount").
@@ -95,7 +95,7 @@ Il met en évidence les changements significatifs de tendance en fonction d’un
 
  ---
 
-- Lignes
+- **Lignes**
 
     - Un graphique en lignes relie les points de données d'une série temporelle ou d'autres catégories avec des segments de ligne. Il est souvent utilisé pour visualiser les tendances ou suivre les changements sur une période.
 
@@ -106,3 +106,35 @@ Il met en évidence les changements significatifs de tendance en fonction d’un
 [Python](/Lignes/Lignes.py)
 
 [R](/Lignes/Lignes.r)
+
+---
+
+- **Line break**
+
+    - Un graphique Line Break est un type de graphique sans échelle temporelle qui met en évidence les changements significatifs de prix.
+
+        - Chaque ligne représente un mouvement de prix : une ligne verte (ou haussière) pour une hausse, une ligne rouge (ou baissière) pour une baisse.
+
+        - Un nouveau bloc est dessiné uniquement si le prix dépasse un certain seuil par rapport aux blocs précédents.
+
+        - Cela filtre les petits mouvements et permet de mieux observer les tendances principales.
+
+[Python](/Line_break/Line_break.py)
+
+[R](/Line_break/Line_break.r)
+
+---
+
+- **Graphique Renko**
+
+    - Un graphique Renko est utilisé pour filtrer les fluctuations mineures de prix afin de se concentrer sur les grandes tendances. Il est composé de "briques" de taille fixe (définie par un seuil) :
+
+        - Une nouvelle brique haussière est ajoutée lorsque le prix monte au-dessus de la clôture précédente d'au moins la taille du seuil.
+
+        - Une brique baissière est ajoutée lorsque le prix descend en dessous de la clôture précédente d'au moins la taille du seuil.
+
+    Les graphiques Renko ignorent le temps et se concentrent uniquement sur les mouvements de prix.
+
+[Python](/Renko/Renko.py)
+
+[R](/Renko/Renko.r)
