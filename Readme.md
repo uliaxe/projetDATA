@@ -163,6 +163,8 @@ Ce script génère des données financières simulées, calcule l'écart-type de
 
 Ce script simule une marche aléatoire en utilisant des rendements journaliers normalement distribués, puis reconstruit et affiche la distribution de probabilité des rendements.
 
+[code](/dataviz_chandelles_volatilite.py)
+
 ### Explications du Code
 
 1 . Importation des bibliothèques : Importation des bibliothèques nécessaires ```(numpy, pandas, matplotlib, scipy)```.
@@ -184,3 +186,5 @@ Ce script simule une marche aléatoire en utilisant des rendements journaliers n
 - Une courbe de distribution normale est ajustée aux données des rendements simulés.
 
 6 . Affichage des résultats : Le script affiche la moyenne et l'écart-type des rendements, et montre la courbe de densité ajustée.
+
+[code](/marche_aleatoire_distribution.py)
