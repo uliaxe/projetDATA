@@ -138,3 +138,49 @@ Il met en évidence les changements significatifs de tendance en fonction d’un
 [Python](/Renko/Renko.py)
 
 [R](/Renko/Renko.r)
+
+## dataviz chandelles 
+
+Ce script génère des données financières simulées, calcule l'écart-type des prix de clôture et affiche un graphique en chandelles avec l'écart-type sur les prix de clôture.
+
+### Explications du Code - Dataviz Chandelles
+
+1 . Importation des bibliothèques : Importation des bibliothèques nécessaires ```(pandas, numpy, matplotlib, mplfinance)```.
+
+2 . Génération des données : Création de données financières factices avec des prix d'ouverture, de clôture, les plus hauts et bas, ainsi que les volumes.
+
+3 . Renommage des colonnes : Mise en conformité des noms des colonnes pour ```mplfinance```.
+
+4 . Calcul de l'écart-type : Calcul de l'écart-type des prix de clôture pour mesurer la volatilité du marché.
+
+5 . Graphique en chandelles : Affichage d'un graphique en chandelles avec ```mplfinance```, montrant l'évolution des prix.
+
+6 . Statistiques descriptives : Affichage des statistiques descriptives des prix de clôture (moyenne, écart-type, etc.).
+
+7 . Visualisation de l'écart-type : Tracé des prix de clôture avec les lignes représentant la moyenne et l'écart-type.
+
+## Reconstruction de la Distribution de Probabilité à partir d'une Marche Aléatoire
+
+Ce script simule une marche aléatoire en utilisant des rendements journaliers normalement distribués, puis reconstruit et affiche la distribution de probabilité des rendements.
+
+### Explications du Code
+
+1 . Importation des bibliothèques : Importation des bibliothèques nécessaires ```(numpy, pandas, matplotlib, scipy)```.
+
+2 . Génération des données :
+
+- ```dates``` : Création de 100 jours ouvrés.
+
+- ```returns``` : Génération de rendements journaliers suivant une distribution normale (moyenne de 0 et écart-type de 0,01).
+
+3 . Simulation des prix : Les prix sont simulés en cumulant les rendements journaliers à partir d'un prix initial de 100.
+
+4 . Calcul des rendements journaliers : Les rendements journaliers sont calculés en prenant la différence entre les prix consécutifs.
+
+5 . Estimation de la distribution de probabilité :
+
+- Un histogramme des rendements est tracé.
+
+- Une courbe de distribution normale est ajustée aux données des rendements simulés.
+
+6 . Affichage des résultats : Le script affiche la moyenne et l'écart-type des rendements, et montre la courbe de densité ajustée.
