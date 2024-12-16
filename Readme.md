@@ -159,11 +159,12 @@ Ce script génère des données financières simulées, calcule l'écart-type de
 
 7 . Visualisation de l'écart-type : Tracé des prix de clôture avec les lignes représentant la moyenne et l'écart-type.
 
+[code](/dataviz_chandelles_volatilite.py)
+
 ## Reconstruction de la Distribution de Probabilité à partir d'une Marche Aléatoire
 
 Ce script simule une marche aléatoire en utilisant des rendements journaliers normalement distribués, puis reconstruit et affiche la distribution de probabilité des rendements.
 
-[code](/dataviz_chandelles_volatilite.py)
 
 ### Explications du Code
 
