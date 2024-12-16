@@ -188,3 +188,8 @@ Ce script simule une marche aléatoire en utilisant des rendements journaliers n
 6 . Affichage des résultats : Le script affiche la moyenne et l'écart-type des rendements, et montre la courbe de densité ajustée.
 
 [code](/marche_aleatoire_distribution.py)
+
+---
+
+Projet réaliser par Pierre et Lukas.
+
